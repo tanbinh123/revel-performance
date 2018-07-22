@@ -1,4 +1,4 @@
-FROM golang:1.9.4
+FROM golang:1.10.0
 
 RUN go get github.com/golang/dep/cmd/dep && \
     go get github.com/revel/cmd/revel && \
