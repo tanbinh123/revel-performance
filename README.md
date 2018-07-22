@@ -9,10 +9,7 @@ $ docker pull tomohito/revel-performance
 
 Set Environment variable.
 ```
-DB_HOST={hostname}
-DB_NAME={db name}
-DB_USER={db username}
-DB_PASS={db password}
+DB_SOURCE={database source}
 ```
 
 Docker run.
@@ -33,10 +30,7 @@ $ docker build -t {username}/revel-performance:latest .
 
 Set Environment variable.
 ```
-DB_HOST={hostname}
-DB_NAME={db name}
-DB_USER={db username}
-DB_PASS={db password}
+DB_SOURCE={database source}
 ```
 
 Docker run.
