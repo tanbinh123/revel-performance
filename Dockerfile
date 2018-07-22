@@ -11,4 +11,4 @@ ENV DB_SOURCE="root:root@tcp(docker.for.mac.localhost:3306)/auth_server?charset=
 WORKDIR src/github.com/tomoyane/revel-performance
 RUN dep ensure
 
-CMD revel run
+CMD revel run dev
