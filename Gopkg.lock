@@ -20,14 +20,100 @@
   revision = "04140366298a54a039076d798123ffa108fff46c"
 
 [[projects]]
+  name = "github.com/mattn/go-colorable"
+  packages = ["."]
+  revision = "167de6bfdfba052fa6b2d3664c8f5272e23c9072"
+  version = "v0.0.9"
+
+[[projects]]
+  name = "github.com/mattn/go-isatty"
+  packages = ["."]
+  revision = "0360b2af4f38e8d38c7fce2a9f4e702702d73a39"
+  version = "v0.0.3"
+
+[[projects]]
+  name = "github.com/revel/config"
+  packages = ["."]
+  revision = "662332b741dd464a886ab0901379c02b9bc5dc30"
+  version = "v0.19.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/revel/log15"
+  packages = ["."]
+  revision = "793412a67da6f8d15fede4c38f5c66272478cb8a"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/revel/modules"
+  packages = [
+    "static/app/controllers",
+    "testrunner/app",
+    "testrunner/app/controllers"
+  ]
+  revision = "32281b5e7c0e32808975925ff205bcbd11633fed"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/revel/pathtree"
+  packages = ["."]
+  revision = "41257a1839e945fce74afd070e02bab2ea2c776a"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/revel/revel"
+  packages = [
+    ".",
+    "logger",
+    "testing"
+  ]
+  revision = "037767bcb74dccdb1c851ecf52cd53c923d48fd2"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/xeonx/timeago"
+  packages = ["."]
+  revision = "714e6695c468c22fb6431a914d8c5f9d19fa2367"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/net"
+  packages = ["websocket"]
+  revision = "a680a1efc54dd51c040b3b5ce4939ea3cf2ea0d1"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/sys"
+  packages = ["unix"]
+  revision = "ac767d655b305d4e9612f5f6e33120b9176c4ad4"
+
+[[projects]]
   name = "google.golang.org/appengine"
   packages = ["cloudsql"]
   revision = "b1f26356af11148e710935ed1ac8a7f5702c7612"
   version = "v1.1.0"
 
+[[projects]]
+  name = "gopkg.in/fsnotify/fsnotify.v1"
+  packages = ["."]
+  revision = "c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9"
+  version = "v1.4.7"
+
+[[projects]]
+  name = "gopkg.in/natefinch/lumberjack.v2"
+  packages = ["."]
+  revision = "a96e63847dc3c67d17befa69c303767e2f84e54f"
+  version = "v2.1"
+
+[[projects]]
+  branch = "v0"
+  name = "gopkg.in/stack.v0"
+  packages = ["."]
+  revision = "9b43fcefddd0178abdabf4d484ab0d695d0011db"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "47931b7c69e802466df4b8409e395af34a97493d04e91fa2ae885635ec4b3770"
+  inputs-digest = "6a0e43e1c81e79f5ee92dc1d534e6bc4644367fc690680c75f77e19a6005f195"
   solver-name = "gps-cdcl"
   solver-version = 1
