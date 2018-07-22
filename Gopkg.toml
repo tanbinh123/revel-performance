@@ -38,7 +38,15 @@
   version = "0.19.0"
 
 [[constraint]]
+  name = "github.com/revel/modules"
+  version = "0.19.0"
+
+[[constraint]]
   name = "github.com/revel/revel"
+  version = "0.19.0"
+
+[[constraint]]
+  name = "github.com/revel/log15"
   version = "0.19.0"
 
 [prune]
